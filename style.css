@@ -364,6 +364,9 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.agencement-liens-footer{
+    display: flex;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
