@@ -26,7 +26,9 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.page-container{
+    margin-left: 0.5%;
+}
 .bloc {
     width: 99%;
     padding-left: 1%;
@@ -384,6 +386,7 @@ a:hover {
 
 #espacement-liens-footer{
     margin-right: 5%;
+    width: 40%;
 }
 
 @media (min-width: 768px) {
@@ -1081,6 +1084,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .agencement-liens-footer{
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1091,6 +1097,9 @@ h4 {
     }
     img{
         width: 100%;
+    }
+    .mg-md {
+        font-size: 18px;
     }
 }
 
