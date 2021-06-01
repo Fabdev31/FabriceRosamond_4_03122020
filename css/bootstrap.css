@@ -1993,13 +1993,14 @@ pre code {
 
 @media (min-width:992px) {
     .container {
-        width: 970px
+        width: 970px;
+        font-size: 20px;
     }
 }
 
 @media (min-width:1200px) {
     .container {
-        width: 1170px
+        width: 100%
     }
 }
 
@@ -2322,7 +2323,7 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%
+        width: 51%
     }
     .col-sm-5 {
         width: 41.66666667%
@@ -3225,7 +3226,7 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 7%
 }
 
 .checkbox,
