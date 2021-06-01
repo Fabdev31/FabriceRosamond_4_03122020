@@ -425,6 +425,11 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    .tight-width-whitespace {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -708,6 +713,7 @@ a {
 p {
     font-size: 11px;
 }
+
 @media (min-width:992px){
     p{
         font-size: 17px;
@@ -715,6 +721,9 @@ p {
     #positionnement-coordonnees-agence{
         margin-top: 7%;
         font-size: 20px;
+    }
+    .agencement-liens-footer{
+        justify-content: space-around;
     }
 }
 
